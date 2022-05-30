@@ -47,7 +47,11 @@ $ npm run test
 # test coverage
 $ npm run test:cov
 ```
+# Note:
 
+Due to timeline constraint below thing have been not taken care off
+- Hard coded the config of Email Service, can move this to config so can support Multiple Environments.
+- For better and secure way we can use AWS SQS but for testing purpose I have user emailGun.
 ## Stay in touch
 
 - Author - [Chandramohan](chandram97@gmail.com)
